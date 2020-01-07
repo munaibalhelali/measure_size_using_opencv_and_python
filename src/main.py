@@ -27,7 +27,7 @@ def calculate_dist( point1, point2):
 	except:
 		return 1000
 
-	comp_x_sqr = math.pow(nx-nx,2)
+	comp_x_sqr = math.pow(nx-px,2)
 	comp_y_sqr = math.pow(ny-py,2)
 	
 	dist= math.sqrt(comp_x_sqr + comp_y_sqr )
